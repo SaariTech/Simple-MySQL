@@ -5,8 +5,7 @@
  *	@author      Jonatan Saari
  *
  */
-include_once "/var/www/spreadlesson.com/codebase/config.class.hh";
-include_once Config::codebase . "/database/database.class.hh";
+include_once "database.class.hh";
 
 class SDB
 {
