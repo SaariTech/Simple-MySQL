@@ -1,4 +1,4 @@
-<?hh // strict
+<?php
 /*
  *	SDB - A simple database class
  *
@@ -9,7 +9,7 @@ include_once "database.class.hh";
 
 class SDB
 {
-	public DB $db;
+	public $db;
 
 	public function __construct($username, $password, $database = "")
 	{
