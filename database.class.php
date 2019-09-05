@@ -1,4 +1,4 @@
-<?hh // strict
+<?php
 /*
  *	DB - A database class
  *
@@ -36,7 +36,7 @@ class DB
 
 		foreach ($bind as $name => $value)
 		{
-			$statement->bindValue(':' . $name, $value->data, $value->datatype);
+			$statement->bindValue(':' . $name, $value);
 		}
 
 		$statement->execute();
@@ -50,13 +50,13 @@ class DB
 
 		foreach ($bind as $name => $value)
 		{
-			$statement->bindValue(':' . $name, $value->data, $value->datatype);
+			$statement->bindValue(':' . $name, $value);
 		}
 
 		$statement->execute();
 	}
 }
-
+/*
 class Bind
 {
 	public $data = "";
@@ -68,6 +68,7 @@ class Bind
 		$this->datatype = $datatype;
 	}
 }
+*/
 
 /*
 	PDO::PARAM_BOOL
