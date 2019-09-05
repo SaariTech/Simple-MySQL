@@ -9,7 +9,7 @@ use \PDO;
 
 class DB
 {
-	public PDO $pdo;
+	public $pdo;
 
 	public function __construct(string $username, string $password, string $database = "")
 	{
