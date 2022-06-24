@@ -1,2 +1,4 @@
 # Simple-MySQL
-To make queries simpler and rapid fast development
+
+Example:
+$query = $db->query('SELECT * FROM table WHERE id = :id', ['id' => 1]);
