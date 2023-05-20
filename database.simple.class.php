@@ -95,11 +95,6 @@ class SDB
 			// The column already exists
 		}
 	}
-	/*
-		VARCHAR( 42 ) NOT NULL
-		varchar(2048) NOT NULL DEFAULT ''
-		TEXT NOT NULL
-	*/
 
 	public function DropColumn($tableName, $ColumnName)
 	{
