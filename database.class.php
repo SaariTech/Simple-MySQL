@@ -56,23 +56,3 @@ class DB
 		$statement->execute();
 	}
 }
-/*
-class Bind
-{
-	public $data = "";
-	public $datatype = -1;
-
-	public function __construct($data, $datatype)
-	{
-		$this->data = $data;
-		$this->datatype = $datatype;
-	}
-}
-*/
-
-/*
-	PDO::PARAM_BOOL
-	PDO::PARAM_NULL
-	PDO::PARAM_INT
-	PDO::PARAM_STR
-*/
