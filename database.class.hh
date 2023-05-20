@@ -68,10 +68,3 @@ class Bind
 		$this->datatype = $datatype;
 	}
 }
-
-/*
-	PDO::PARAM_BOOL
-	PDO::PARAM_NULL
-	PDO::PARAM_INT
-	PDO::PARAM_STR
-*/
